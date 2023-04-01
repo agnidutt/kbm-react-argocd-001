@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kbm-react-argocd-001"
+  description: "kbm-react-argocd-001"
+  annotations:
+    github.com/project-slug: kbmdev/kbm-react-argocd-001
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/team-founders"
